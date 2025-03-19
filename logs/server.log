@@ -1,0 +1,20 @@
+2025-03-19 10:11:09 [32minfo[39m: Inside AuthController.loadUsers
+2025-03-19 10:14:39 [32minfo[39m: Inside AuthController.loadUsers
+2025-03-19 10:54:07 [32minfo[39m: Inside AuthController.loadUsers
+2025-03-19 10:54:07 [32minfo[39m: Loading users, posts, and comments from JSONPlaceholder...
+2025-03-19 10:54:09 [33mwarn[39m: Users already exist in MongoDB. Skipping insertion.
+2025-03-19 10:54:09 [33mwarn[39m: Posts already exist in MongoDB. Skipping insertion.
+2025-03-19 10:54:09 [33mwarn[39m: Comments already exist in MongoDB. Skipping insertion.
+2025-03-19 10:58:23 [32minfo[39m: Inside AuthController.loadUsers
+2025-03-19 10:58:23 [32minfo[39m: Fetching users, posts, and comments from JSONPlaceholder...
+2025-03-19 10:58:24 [32minfo[39m: 10 new users added to MongoDB.
+2025-03-19 10:58:28 [33mwarn[39m: No new posts to add.
+2025-03-19 10:58:47 [33mwarn[39m: No new comments to add.
+2025-03-19 11:00:21 [32minfo[39m: Inside AuthController.loadUsers
+2025-03-19 11:00:21 [32minfo[39m: Fetching users, posts, and comments from JSONPlaceholder...
+2025-03-19 11:00:37 [31merror[39m: Failed to load user data: connect ECONNABORTED 104.21.112.1:443
+2025-03-19 11:26:24 [32minfo[39m: Inside AuthController.loadUsers
+2025-03-19 11:26:24 [32minfo[39m: Fetching users, posts, and comments from JSONPlaceholder...
+2025-03-19 11:26:25 [32minfo[39m: 9 new users added to MongoDB.
+2025-03-19 11:26:28 [32minfo[39m: 100 new posts added to MongoDB.
+2025-03-19 11:26:46 [32minfo[39m: 500 new comments added to MongoDB.
