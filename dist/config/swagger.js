@@ -6,6 +6,8 @@ Object.defineProperty(exports, "__esModule", { value: true });
 exports.setupSwagger = void 0;
 const swagger_jsdoc_1 = __importDefault(require("swagger-jsdoc"));
 const swagger_ui_express_1 = __importDefault(require("swagger-ui-express"));
+const dotenv_1 = __importDefault(require("dotenv"));
+dotenv_1.default.config();
 const swaggerOptions = {
     definition: {
         openapi: "3.0.0",
@@ -16,7 +18,7 @@ const swaggerOptions = {
         },
         servers: [
             {
-                url: "http://localhost:5000",
+                url: process.env.Current_domain || "http://localhost:5000",
             },
         ],
         tags: [
