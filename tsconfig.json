@@ -114,13 +114,12 @@
 
 
 
-
 {
   "compilerOptions": {
     "target": "ES6",
     "module": "CommonJS",
     "rootDir": "src",
-    "outDir": "dist",
+    "outDir": "dist",   // This ensures compiled JS files are placed in 'dist'
     "strict": true,
     "esModuleInterop": true,
     "skipLibCheck": true,
