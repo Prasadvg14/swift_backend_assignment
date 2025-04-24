@@ -122,7 +122,7 @@ This project is licensed under the MIT License. Feel free to use, modify, and di
 
 👨‍💻 **Author**
 
-Prasad Vutukuru
+PrasadVG
 
 GitHub: @Prasadvg14
 
